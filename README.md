@@ -1,5 +1,27 @@
 # Get_Next_Line
+## Basic Informations
 
-This projects is about creating a function that, allows to read a line ending with a newline character ('\n') from a file descriptor, without knowing its size beforehand. 
-One of the goal of this project is to learn a highly interesting new concept in C programming: static variables, and to gain a deeper understanding of allocations, 
-whether they happen on the stack memory or in the heap memory, the manipulation and the life cycle of a buffer, the unexpected complexity implied in the use of one or many static variables.
+#### Function Prototype
+
+```c
+ char	*get_next_line(int fd);
+```
+#### Return value
+
+
+| Value |  Description                       |
+| :-------- |  :-------------------------------- |
+| `Read line`      | correct behavior  |
+| `NULL`      | nothing else to read or an error has occured|
+
+
+
+| Function | Description                |
+| :-------- | :------------------------- |
+| `read()` | A line has been read |
+| `malloc()` | EOF has been reached |
+| `free()` | An error happene |
+
+
+
+  
