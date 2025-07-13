@@ -19,7 +19,7 @@
 | Function | Description                |
 | :-------- | :------------------------- |
 | `read()` | A line has been read |
-| `malloc()` | EOF has been reached |
+| `malloc()` | @@@@@@@@@@@@&&&&& |
 | `free()` | An error happene |
 
 
